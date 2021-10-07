@@ -1,2 +1,2 @@
 # MATRIXCISC
-MATRIX CISC CPU ISA
+MATRIX CISC CPU ISA (currently documents only)
