@@ -121,3 +121,22 @@ Half size floating point vector formats
 |0b00               |HF3[15...8] |HF3[7...0]  |HF2[15...8] |HF2[7...0]  |HF1[15...8] |HF1[7...0]  |HF0[15...8]|HF0[7...0]|HHFV|Half size Half precision floating points vector  |
 |0b01               |SF1[31...24]|SF1[23...16]|SF1[15...8] |SF1[7...0]  |SF0[31...24]|SF0[23...16]|SF0[15...8]|SF0[7...0]|HSFV|Half size Single precision floating points vector|
 |0b11               |DF0[63...56]|DF0[55...48]|DF0[47...40]|DF0[39...32]|DF0[31...24]|DF0[23...16]|DF0[15...8]|DF0[7...0]|HDFV|Half size Double precision floating points vector|
+
+Single scalar in integer vector formats
+=============
+|Inst.Bit|Name|Description    |
+|:-------|:--:|:--------------|
+|0b0nnnn |Bn  |Byte #n        |
+|0b10nnn |Wn  |Word #n        |
+|0b110nn |Dn  |Double Word #n |
+|0b1110n |Qn  |Quad Word #n   |
+|0b11110 |O0  |Octa Word #0   |
+
+Single scalar in floating point vector formats
+=============
+|Inst.Bit|Name|Description                         |
+|:-------|:--:|:-----------------------------------|
+|0b0nnn  |HFn |Half precision floating points #n   |
+|0b10nn  |SFn |Single precision floating points #n |
+|0b110n  |DFn |Double precision floating points #n |
+|0b1110  |QFn |Quad precision floating points #n   |
