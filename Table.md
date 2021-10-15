@@ -139,4 +139,4 @@ Single scalar in floating point vector formats
 |0b0nnn  |HFn |Half precision floating points #n   |
 |0b10nn  |SFn |Single precision floating points #n |
 |0b110n  |DFn |Double precision floating points #n |
-|0b1110  |QFn |Quad precision floating points #n   |
+|0b1110  |QF0 |Quad precision floating points #0   |
